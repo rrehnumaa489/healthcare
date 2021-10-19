@@ -11,7 +11,7 @@ const Login = () => {
             <h1 className="mt-5">Please Login</h1>
                 <Button className="m-5" onClick={signInUsingGoogle} variant="primary">Login With Google</Button> 
                 <span>Or</span>
-                <Button className="m-5" variant="light"><Link to="register">Register</Link></Button> 
+                <Link to="register"><Button className="m-5" variant="primary">Register</Button></Link>
                 
         </div>
     );
