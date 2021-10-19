@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 
 const Product = ({product}) => {
-    const {id, name, description,image} = product;
+    const { name, description,image} = product;
     return (
         <div className="col-sm-12 col-md-6 col-lg-4 mt-4">
             <Card>

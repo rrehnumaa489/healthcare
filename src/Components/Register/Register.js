@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, updateProfile } from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, updateProfile } from "firebase/auth";
 import { Button } from 'react-bootstrap';
 
 
@@ -86,10 +86,7 @@ const Register = (e) => {
       })
   }
 
-  const handleResetPassword = () => {
-    sendPasswordResetEmail(auth, email)
-      .then(result => { })
-  }
+  
 
     return (
         <div className="mx-5">
